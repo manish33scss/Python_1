@@ -4,7 +4,7 @@ Created on Thu Mar  5 00:03:23 2020
 
 @author: Manish
 """##problem : Find the two numbers in list whose sum is equal to a target sum.
-
+##DICTIONARY
 def numsum(array, targetsum):
     nums={}
     for num in array:
@@ -21,7 +21,7 @@ tsum=5
 zx=numsum(o,tsum)
 
 print(zx)
-
+##LOOPS
 def sumnum(array,tsum):
     for i in range(len(array)-1):
         firstN= array[i]
